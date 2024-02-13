@@ -1,0 +1,11 @@
+name: marcoenv
+channels:
+- conda-forge
+dependencies:
+- python=3.10
+- pip
+- mypy
+- toolz
+- sphinx
+# - pip:
+#  - docutils-stubs
