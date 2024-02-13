@@ -15,6 +15,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: html-docs
+        input_docs-folder: source/
         docs-folder: source/
         path: build/html/
     - name: Deploy
